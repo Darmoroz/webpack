@@ -1,0 +1,25 @@
+{
+	"name": "webpack-template",
+	"version": "1.0.0",
+	"description": "bundler webpack",
+	"homepage": "https://github.com/Darmoroz/webpack#readme",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"watch": "webpack --watch",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Darmoroz/webpack.git"
+	},
+	"keywords": [],
+	"author": "Olexandr Darmoroz <darmoroz99@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Darmoroz/webpack/issues"
+	},
+	"devDependencies": {
+		"webpack": "^5.75.0",
+		"webpack-cli": "^5.0.1"
+	}
+}
