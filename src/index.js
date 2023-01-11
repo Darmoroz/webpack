@@ -1,4 +1,16 @@
+import { bred, i, baron, sum, run } from './export';
+import Learn from './export-default';
+import Article from './article';
 const fred = 'Ivan';
+
+const bref = new Learn();
+console.log(bref);
 console.log(fred);
-console.log(`My name ${fred}`);
-console.log(333);
+console.log(i);
+console.log(bred);
+console.log(baron);
+sum(1, 2);
+
+let article = new Article({ head: 'Final', description: 'MU chempion' });
+
+article.render();
