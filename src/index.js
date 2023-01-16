@@ -3,6 +3,7 @@ import Learn from './export-default';
 import Article from './article';
 
 import css from './style.css';
+import './style.scss';
 
 const fred = 'Ivan';
 
